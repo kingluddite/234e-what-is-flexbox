@@ -1,16 +1,17 @@
 # What is Flexbox?
 ## Branches
-02-flexbox-side-by-side
-  03-flexbox-diff-col-widths
-  04-flexbox-change-order
-  05-flexbox-align-items
-  06-flexbox-direction
-  07-widths
-  08-flex-basis
-  09-media-queries
-  10-flexbox-wrap
-  flexbox
-  floats
+* master
+* 00-floats
+* 01-flexbox
+* 02-flexbox-side-by-side
+* 03-flexbox-diff-col-widths
+* 04-flexbox-change-order
+* 05-flexbox-align-items
+* 06-flexbox-direction
+* 07-widths
+* 08-flex-basis
+* 09-media-queries
+* 10-flexbox-wrap
 
 
 * A CSS3 layout mode that provides an easy way to arrange items within a container
