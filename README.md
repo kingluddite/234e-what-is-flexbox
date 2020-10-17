@@ -8,3 +8,6 @@
 
 ## the box model
 * assign widths and use floats to arrange items on the page
+
+## cons
+* Working with padding and margin and doing lots of simple math can be tedious and error prone
