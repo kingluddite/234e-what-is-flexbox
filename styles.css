@@ -2,6 +2,9 @@
   display: flex;
   align-items: flex-start;
   /* align-items: flex-end; */
+  align-items: center;
+  align-items: stretch;
+  /* default is stretch */
 }
 .container-1 div {
   border: 1px #ccc solid;
