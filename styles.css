@@ -1,14 +1,13 @@
-.container-1 {
-  display: flex;
+@media (min-width: 768px) {
+  .container-1 {
+    display: flex;
+  }
+  .container-2 {
+    display: flex; /* puts boxes side by side */
+    justify-content: space-between; /* spreads it out and spaces on side */
+  }
 }
-.container-2 {
-  display: flex; /* puts boxes side by side */
-  /* justify-content: flex-start; default won't change anything */
-  /* justify-content: flex-end; default won't change anything */
-  /* justify-content: center; */
-  /* justify-content: space-between; spreads it out with equal margins */
-  justify-content: space-around; /* spreads it out and spaces on side */
-}
+
 .container-1 div,
 .container-2 div {
   border: 1px #ccc solid;
