@@ -16,7 +16,7 @@
 }
 
 .container-2-box {
-  width: 20%; /* added (see room on right?)*/
+  flex-basis: 20%; /* same as width but more flexy looking */
 }
 .container-2 .box-1 {
   flex: 2;
