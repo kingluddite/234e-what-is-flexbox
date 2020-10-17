@@ -8,10 +8,13 @@
 
 .box-1 {
   flex: 2;
+  order: 2;
 }
 .box-2 {
   flex: 1;
+  order: 3;
 }
 .box-3 {
   flex: 2;
+  order: 1;
 }
