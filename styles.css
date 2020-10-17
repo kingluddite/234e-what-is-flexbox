@@ -1,14 +1,24 @@
 .container-1 {
   display: flex;
-  flex-direction: column;
-  /* default is row */
 }
-.container-1 div {
+.container-2 {
+  display: flex; /* puts boxes side by side */
+  /* justify-content: flex-start; default won't change anything */
+  /* justify-content: flex-end; default won't change anything */
+  /* justify-content: center; */
+  /* justify-content: space-between; spreads it out with equal margins */
+  justify-content: space-around; /* spreads it out and spaces on side */
+}
+.container-1 div,
+.container-2 div {
   border: 1px #ccc solid;
   padding: 10px;
 }
 
-.box-1 {
+.container-2-box {
+  width: 20%; /* added (see room on right?)*/
+}
+.container-2 .box-1 {
   flex: 2;
   order: 2;
 }
@@ -20,3 +30,5 @@
   flex: 2;
   order: 1;
 }
+
+/* inside container-2 each column has same class */
